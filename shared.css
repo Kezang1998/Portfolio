@@ -186,6 +186,7 @@ header.scrolled {
   background: var(--text);
   border-radius: 2px;
   transition: transform 0.3s, opacity 0.3s;
+   z-index: 999;
 }
 .ham.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .ham.open span:nth-child(2) { opacity: 0; }
